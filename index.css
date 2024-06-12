@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 90%;
+}
+
+.hero-content h1 {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.1em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background-color: #e65c00;
+}
+
+.hero-image img {
+    padding-top: 10px;
+    max-width: 100%;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.why-choose-us {
+    background-color: #222;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 180px;
+    margin: 8px;
+}
+
+.feature img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.mission-section, .vision-section, .partnership-section {
+    background-color: #222;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.mission-content, .vision-content, .partnership-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mission-image, .vision-image, .partnership-image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mission-image img, .vision-image img, .partnership-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mission-text, .vision-text, .partnership-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.mission-text h2, .vision-text h2, .partnership-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.mission-text p, .vision-text p, .partnership-text p {
+    font-size: 1.2em;
+}
+
+.partnership-text button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.partnership-text button:hover {
+    background-color: #e65c00;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .hero-content {
+        max-width: 50%;
+    }
+
+    .hero-image {
+        max-width: 50%;
+    }
+
+    .mission-content, .vision-content, .partnership-content {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .mission-image, .vision-image, .partnership-image {
+        flex: 1;
+    }
+
+    .mission-text, .vision-text, .partnership-text {
+        flex: 1;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+    }
+
+    .mission-text h2, .vision-text h2, .partnership-text h2 {
+        font-size: 2.5em;
+    }
+
+    .mission-text p, .vision-text p, .partnership-text p {
+        font-size: 1.3em;
+    }
+}
